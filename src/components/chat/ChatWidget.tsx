@@ -55,7 +55,7 @@ export function ChatWidget() {
 
       const data = await res.json();
       setMessages((prev) => [...prev, data.message]);
-    } catch (_error) {
+    } catch {
       setMessages((prev) => [
         ...prev,
         {
