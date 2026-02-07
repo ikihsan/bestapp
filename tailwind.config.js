@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-require-imports */
 const { fontFamily } = require('tailwindcss/defaultTheme');
 
 /** @type {import('tailwindcss').Config} */
@@ -40,40 +41,40 @@ module.exports = {
         heading: ['var(--font-heading)', ...fontFamily.sans],
       },
       fontSize: {
-        'display': ['3.5rem', { lineHeight: '1.1', letterSpacing: '-0.02em' }],
+        display: ['3.5rem', { lineHeight: '1.1', letterSpacing: '-0.02em' }],
         'heading-1': ['2.5rem', { lineHeight: '1.2', letterSpacing: '-0.01em' }],
         'heading-2': ['2rem', { lineHeight: '1.25', letterSpacing: '-0.005em' }],
         'heading-3': ['1.5rem', { lineHeight: '1.3' }],
         'heading-4': ['1.25rem', { lineHeight: '1.4' }],
         'body-lg': ['1.125rem', { lineHeight: '1.6' }],
-        'body': ['1rem', { lineHeight: '1.6' }],
+        body: ['1rem', { lineHeight: '1.6' }],
         'body-sm': ['0.875rem', { lineHeight: '1.5' }],
-        'caption': ['0.75rem', { lineHeight: '1.4' }],
+        caption: ['0.75rem', { lineHeight: '1.4' }],
       },
       borderRadius: {
-        'xs': '0.25rem',
-        'sm': '0.375rem',
-        'md': '0.5rem',
-        'lg': '0.75rem',
-        'xl': '1rem',
+        xs: '0.25rem',
+        sm: '0.375rem',
+        md: '0.5rem',
+        lg: '0.75rem',
+        xl: '1rem',
         '2xl': '1.25rem',
         '3xl': '1.5rem',
       },
       boxShadow: {
-        'card': 'var(--shadow-card)',
+        card: 'var(--shadow-card)',
         'card-hover': 'var(--shadow-card-hover)',
-        'float': 'var(--shadow-float)',
+        float: 'var(--shadow-float)',
       },
       spacing: {
-        '4.5': '1.125rem',
-        '13': '3.25rem',
-        '15': '3.75rem',
-        '18': '4.5rem',
-        '22': '5.5rem',
+        4.5: '1.125rem',
+        13: '3.25rem',
+        15: '3.75rem',
+        18: '4.5rem',
+        22: '5.5rem',
       },
       maxWidth: {
-        'content': '72rem',
-        'narrow': '42rem',
+        content: '72rem',
+        narrow: '42rem',
       },
       animation: {
         'fade-in': 'fadeIn 0.3s ease-out',

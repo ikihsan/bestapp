@@ -13,5 +13,5 @@
     "@typescript-eslint/no-explicit-any": "warn",
     "jsx-a11y/anchor-is-valid": "off"
   },
-  "ignorePatterns": ["node_modules/", ".next/", "out/", "coverage/"]
+  "ignorePatterns": ["node_modules/", ".next/", "out/", "coverage/", "*.config.js"]
 }
